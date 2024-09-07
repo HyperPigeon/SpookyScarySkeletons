@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "spooky_scary_skeletons",
+  "version": "1.0.0",
+  
+  "name": "Spooky Scary Skeletons",
+  "description": "Mod Description.",
+  "authors": [
+    "Me!"
+  ],
+  
+  "icon": "assets/spooky_scary_skeletons/icon.png",
+  "license": "No Licence.",
+  
+  "environment": "*",
+  
+  "entrypoints": {
+    "main": [
+      "net.hyper_pigeon.spooky_scary_skeletons.SpookyScarySkeletons"
+    ],
+    "client": [
+      "net.hyper_pigeon.spooky_scary_skeletons.SpookScarySkeletonsClient"
+    ]
+  },
+  
+  "requires": {
+    "fabricloader": ">=0.4.0"
+  },
+  
+  "mixins": [
+    "spooky_scary_skeletons.mixins.json"
+  ]
+}

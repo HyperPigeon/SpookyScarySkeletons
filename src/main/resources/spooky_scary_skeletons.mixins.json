@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.hyper_pigeon.spooky_scary_skeletons.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MobEntityMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
